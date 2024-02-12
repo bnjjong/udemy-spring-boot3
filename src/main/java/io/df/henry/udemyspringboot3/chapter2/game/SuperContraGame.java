@@ -1,7 +1,11 @@
 package io.df.henry.udemyspringboot3.chapter2.game;
 
 import lombok.ToString;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
 
+@Component
+@Primary
 @ToString
 public class SuperContraGame implements GameConsole {
 

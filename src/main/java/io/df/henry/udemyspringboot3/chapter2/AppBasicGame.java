@@ -1,6 +1,6 @@
 package io.df.henry.udemyspringboot3.chapter2;
 
-import io.df.henry.udemyspringboot3.chapter2.game.MarioGame;
+import io.df.henry.udemyspringboot3.chapter2.game.GameRunner;
 import io.df.henry.udemyspringboot3.chapter2.game.PacmanGame;
 
 public class AppBasicGame {

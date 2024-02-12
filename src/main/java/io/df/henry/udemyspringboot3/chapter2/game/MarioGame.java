@@ -1,7 +1,11 @@
 package io.df.henry.udemyspringboot3.chapter2.game;
 
 import lombok.ToString;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+@Component
+@Qualifier("MarioGameQualifier")
 @ToString
 public class MarioGame implements GameConsole{
 

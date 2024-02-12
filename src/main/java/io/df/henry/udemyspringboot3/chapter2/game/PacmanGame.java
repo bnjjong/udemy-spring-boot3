@@ -1,7 +1,9 @@
 package io.df.henry.udemyspringboot3.chapter2.game;
 
 import lombok.ToString;
+import org.springframework.stereotype.Component;
 
+@Component
 @ToString
 public class PacmanGame implements GameConsole{
 
